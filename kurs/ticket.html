@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ticket.css">
+    <link rel="stylesheet" href="global.css">
+    <script src="https://kit.fontawesome.com/c5c52b80a4.js" crossorigin="anonymous"></script>
+    <title>Покупка билетов</title>
+</head>
+<body>
+    <header>
+        <img src="./media/image 4.svg" alt="">
+        <a href="./main.html">Главная</a>
+        <a href="./ticket.html">Купить билет</a>
+        <a href="./tablo.html">Расписание</a>
+    </header>
+    <main>
+        <div class="found">
+            <input type="text" id="fromInput" placeholder="Откуда">
+            <input type="text" id="toInput" placeholder="Куда">
+            <input type="date" id="dateInput">
+            <button id="searchButton">Поиск</button>
+        </div>
+
+        <div class="box">
+            <div class="content">
+            <span>Откуда</span>
+            <span>Куда</span>
+            <span>В пути</span>
+            <span>Стоимость</span>
+        </div>
+        <div class="content">
+            <span class="big" >07:30</span>
+            <span class="big">10:18</span>
+            <span>2 ч 48 мин</span>
+            <span>5,51 BYN</span>
+        </div>
+        <div class="content">
+            <span>Минск-Пассажирский</span>
+            <span class="tire">-</span>
+            <span>Гудогай</span>
+            <button class="buyButton" onclick="myFunc()">Купить билет</button>
+        </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+            <span>Откуда</span>
+            <span>Куда</span>
+            <span>В пути</span>
+            <span>Стоимость</span>
+        </div>
+        <div class="content">
+            <span class="big">08:52</span>
+            <span class="big">10:50</span>
+            <span>2 ч 48 мин</span>
+            <span>5,51 BYN</span>
+        </div>
+        <div class="content">
+            <span>Минск-Пассажирский</span>
+            <span class="tire">-</span>
+            <span>Гудогай</span>
+            <button class="buyButton" onclick="myFunc()">Купить билет</button>
+        </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+            <span>Откуда</span>
+            <span>Куда</span>
+            <span>В пути</span>
+            <span>Стоимость</span>
+        </div>
+        <div class="content">
+            <span class="big">16:50</span>
+            <span class="big">19:38</span>
+            <span>2 ч 48 мин</span>
+            <span>5,51 BYN</span>
+        </div>
+        <div class="content">
+            <span>Минск-Пассажирский</span>
+            <span class="tire">-</span>
+            <span>Гудогай</span>
+            <button class="buyButton" onclick="myFunc()">Купить билет</button>
+        </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+            <span>Откуда</span>
+            <span>Куда</span>
+            <span>В пути</span>
+            <span>Стоимость</span>
+        </div>
+        <div class="content">
+            <span class="big">18:14</span>
+            <span class="big">21:02</span>
+            <span>2 ч 48 мин</span>
+            <span>5,51 BYN</span>
+        </div>
+        <div class="content">
+            <span>Брест-Центральный</span>
+            <span class="tire">-</span>
+            <span>Барановичи</span>
+            <button class="buyButton" onclick="myFunc()">Купить билет</button>
+        </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+            <span>Откуда</span>
+            <span>Куда</span>
+            <span>В пути</span>
+            <span>Стоимость</span>
+        </div>
+        <div class="content">
+            <span class="big">22:06</span>
+            <span class="big">00:54</span>
+            <span>2 ч 48 мин</span>
+            <span>5,51 BYN</span>
+        </div>
+        <div class="content">
+            <span>Брест-Центральный</span>
+            <span class="tire">-</span>
+            <span>Барановичи</span>
+            <button class="buyButton" onclick="myFunc()">Купить билет</button>
+        </div>
+        
+        </div>
+        <div class="box">
+            <div class="content">
+            <span>Откуда</span>
+            <span>Куда</span>
+            <span>В пути</span>
+            <span>Стоимость</span>
+        </div>
+        <div class="content">
+            <span class="big">22:06</span>
+            <span class="big">00:54</span>
+            <span>2 ч 48 мин</span>
+            <span>5,51 BYN</span>
+        </div>
+        <div class="content">
+            <span>Брест-Центральный</span>
+            <span class="tire">-</span>
+            <span>Барановичи</span>
+            <button class="buyButton" onclick="myFunc()">Купить билет</button>
+        </div>
+        </div>
+</main>  
+
+
+      <div class="buy">
+        <div class="flex">
+            <h1>Покупка билета</h1>
+            <a href="./ticket.html">x</a>
+        </div><hr>
+            <p>Имя</p>
+            <input type="text">
+            <p>Фамилия</p>
+            <input type="text">
+            <p>Отчество</p>
+            <input type="text">
+            <p>Номер карты</p>
+            <input type="text">
+            <p>Срок действия</p>
+            <input type="text">
+            <p>CCV</p>
+            <input type="text" placeholder="3 цифры с обратной стороны">
+            <p>Имя держателя карты латиницей</p>
+            <div class="flex">
+            <input type="text">
+            <button id="buyButtonEnd">Купить билет</button></div>
+        </div>
+
+
+        <div id="ok" class="ok">
+            <p>Билет успешно куплен</p>
+            <div class="flex">
+            <p>Ваш номер билета</p> <span id="num"></span>
+            <button id="okBut">Понятно</button></div>
+        </div>
+
+
+        <footer>
+            <div class="block1">
+            <p>Контакты</p>
+            <p>+375 29 9229958</p>
+        </div>
+        <div class="block1">
+            <p>ОАО "БелЖД" 2025</p>
+            <p>Все права защищены©</p>
+        </div>
+            <div class="block1">
+            <p>Наши соцсети:</p>
+            <i class="fa-brands fa-vk"></i>
+            <a href="/">VK</a><br>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="/">Instagram</a> <br>
+            <i class="fa-brands fa-telegram"></i>
+            <a href="/">Telegram</a>
+        </div>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>

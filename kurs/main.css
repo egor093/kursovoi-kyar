@@ -1,0 +1,108 @@
+.carousel{
+    width: 90%;
+    margin: 50px 0 50px 5%;
+    
+}
+.carousel img{
+    height: 800px;
+}
+.found button:hover {
+	background-color: darkblue;
+    transition: all 0.60s;
+    transform: scale(1.04);
+}
+.found{
+    width: 87%;
+    height: 100px;
+    background-color: rgba(48, 65, 250, 1);
+    border-radius: 5px;
+    margin: 50px 0 50px 6.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.found input{
+    height: 50px;
+    width: 25%;
+    border: none;
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 16px;
+}
+.found button{
+    width: 15%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(56, 34, 251, 1);
+    cursor: pointer;
+}
+.found button a{
+    color: white;
+    text-decoration: none;
+}
+.news{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.block{
+    width: 40%;
+    height: 540px;
+    border: 1px black solid;
+    border-radius: 8px;
+    padding: 2%;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.block a{
+    text-decoration: none;
+    color: rgba(24, 0, 243, 1);
+}
+.block img{
+    width: 95%;
+    height: 380px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+@media(max-width: 800px){
+    .block{
+        height: 430px;
+    }
+    .block img{
+        height: 260px;
+    }
+}
+@media(max-width: 700px){
+    .carousel img{
+        height: 600px;
+    }
+    .found{
+        margin-left: 15%;
+        width: 70%;
+        height: 400px;
+        flex-direction: column;
+    }
+    .found input{
+        width: 90%;
+    }
+    .found button{
+        width: 90%;
+    }
+}
+@media(max-width: 650px){
+    .block{
+        height: 400px;
+    }
+    .block img{
+        height: 230px;
+    }
+}
+@media(max-width: 500px){
+    .carousel img{
+        height: 500px;
+        
+    }
+}

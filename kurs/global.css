@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(95, 89, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+header a:hover{
+    transform: scale(1.05);
+}
+header img{
+    width: 80px;
+    height: 80px;
+}
+main{
+    margin-left: 3%;
+}
+footer{
+    padding: 4%;
+    height: 165px;
+    width: 100%;
+    background-color: rgba(95, 89, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+footer p{
+    font-size: 20px;
+}
